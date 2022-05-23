@@ -504,7 +504,7 @@ body {
 }
 
 .sma-card-berita {
-    min-width: 360px;
+    max-width: calc(100% - 4px);
     padding: 1rem 1.5rem;
     background-color: #f1f1f1;
     border-radius: 10px;
