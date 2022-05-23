@@ -81,13 +81,13 @@ body {
 
 .sma-btn-primary:hover,
 .sma-btn-primary:focus {
-    background-color: #3947c9;
+    background-color: #4151e4;
     color: #fff;
     border-color: transparent;
 }
 
 .sma-btn-primary:hover {
-    box-shadow: 0 6px 32px -4px rgba(62, 81, 255, 0.5);
+    box-shadow: 0 6px 32px -4px rgba(50, 70, 253, 0.5);
     border-color: transparent;
 }
 
