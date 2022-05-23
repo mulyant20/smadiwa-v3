@@ -68,6 +68,40 @@ body {
     margin-top: -4px;
 }
 
+.navbar-collapse {
+    transition: all 150ms ease;
+}
+
+@media (max-width: 800px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 72px;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        padding: 1rem 2rem 4rem;
+    }
+    .navbar-collapse::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 360px;
+        left: 0;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(2px);
+        z-index: -10;
+    }
+
+    .nav-link,
+    .nav-link.active {
+        color: #1d1d1d !important;
+    }
+
+    .nav-link.active::before {
+        display: none;
+    }
+}
 
 /* button */
 
