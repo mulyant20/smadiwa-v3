@@ -478,7 +478,7 @@ body {
 
 @media (max-width: 800px) {
     .fasilitas-img-primary {
-        right: 0;
+        right: 1rem;
     }
 }
 
