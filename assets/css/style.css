@@ -476,12 +476,6 @@ body {
     margin-left: 5rem ;
 }
 
-@media (max-width: 800px) {
-    .fasilitas-img-primary {
-        right: 1rem;
-    }
-}
-
 .fasilitas-img-primary img {
     width: 100%;
     border-radius: 10px;
@@ -542,13 +536,17 @@ body {
     }
 
     .fasilitas-ornament-2 {
-        right: 2rem;
+        right: 1rem;
     }
     .fasilitas-ornament-1 {
-        left: 8rem;
+        left: 6rem;
+    }
+    .fasilitas-img-primary {
+        position: relative;
+        right: 3rem;
     }
     .fasilitas-img-secondary {
-        left: 2rem;
+        left: -.5rem;
     }
 }
 
